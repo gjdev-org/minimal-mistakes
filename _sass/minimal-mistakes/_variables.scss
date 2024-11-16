@@ -13,6 +13,10 @@ $border-color: #e6e6e6 !default; // Colore dei bordi
 $highlight-color: #ff0 !default; // Colore evidenziato
 $accent-color: #ff6347 !default; // Colore di accento (tomato)
 
+// Definizione della variabile $focus-color
+$focus-color: #ff6347 !default; // Puoi sostituire questo valore con il colore che preferisci (ad esempio, un colore di accento come il rosso)
+
+
 // Font
 $serif: "Georgia", "Times New Roman", serif !default; // Font serif
 $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif !default; // Font sans-serif
