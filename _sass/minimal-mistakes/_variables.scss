@@ -16,6 +16,8 @@ $accent-color: #ff6347 !default; // Colore di accento (tomato)
 // Definizione della variabile $focus-color
 $focus-color: #ff6347 !default; // Puoi sostituire questo valore con il colore che preferisci (ad esempio, un colore di accento come il rosso)
 
+// Definizione della variabile $medium (aggiunta per il breakpoint medio)
+$medium: 768px !default; // Imposta il valore del breakpoint per dispositivi di media dimensione (come tablet)
 
 // Font
 $serif: "Georgia", "Times New Roman", serif !default; // Font serif
@@ -67,3 +69,11 @@ $light-background-color: #ffffff !default; // Colore di sfondo chiaro
 $light-text-color: #212121 !default; // Colore del testo nel tema chiaro
 $light-border-color: #e6e6e6 !default; // Colore del bordo nel tema chiaro
 $light-primary-color: #ff6347 !default; // Colore primario nel tema chiaro
+
+// Esempio di utilizzo della variabile $medium in una regola CSS (per un breakpoint)
+@media (max-width: $medium) {
+  .example-class {
+    background-color: $primary-color;
+    font-size: $doc-font-size-medium;
+  }
+}
