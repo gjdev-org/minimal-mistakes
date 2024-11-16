@@ -1,31 +1,65 @@
 // Definizioni delle variabili
-$light-gray: #d3d3d3 !default;  // Definizione del colore light-gray
 
-// Altre variabili (definisci queste se necessario)
-$doc-font-size: 16px !default;
-$doc-font-size-medium: $doc-font-size * 1.125 !default;
-$doc-font-size-large: $doc-font-size * 1.25 !default;
-$doc-font-size-x-large: $doc-font-size * 1.375 !default;
+// Colori principali
+$light-gray: #d3d3d3 !default; // Colore grigio chiaro
+$dark-gray: #7a8288 !default; // Colore grigio scuro
+$primary-color: #6f777d !default; // Colore primario
+$gray: #7a8288 !default; // Colore grigio
+$background-color: #fff !default; // Colore di sfondo (bianco)
+$code-background-color: #fafafa !default; // Colore di sfondo per il codice (grigio chiaro)
+$text-color: $dark-gray !default; // Colore del testo
+$muted-text-color: mix(#fff, $text-color, 20%) !default; // Colore del testo sbiadito
+$border-color: #e6e6e6 !default; // Colore dei bordi
+$highlight-color: #ff0 !default; // Colore evidenziato
+$accent-color: #ff6347 !default; // Colore di accento (tomato)
 
-// Altri colori
-$primary-color: #6f777d !default;
-$gray: #7a8288 !default;
-$dark-gray: mix(#000, $gray, 50%) !default;
-$background-color: #fff !default;
-$code-background-color: #fafafa !default;
-$text-color: $dark-gray !default;
-$muted-text-color: mix(#fff, $text-color, 20%) !default;
-$border-color: #e6e6e6 !default;
+// Font
+$serif: "Georgia", "Times New Roman", serif !default; // Font serif
+$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif !default; // Font sans-serif
+$global-font-family: $sans-serif !default; // Font globale
+$header-font-family: $sans-serif !default; // Font per gli header
 
-// Font e tipografia
-$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif !default;
-$global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
+// Dimensioni font
+$doc-font-size: 16px !default; // Dimensione font di base
+$doc-font-size-medium: $doc-font-size * 1.125 !default; // Dimensione font media
+$doc-font-size-large: $doc-font-size * 1.25 !default; // Dimensione font grande
+$doc-font-size-x-large: $doc-font-size * 1.375 !default; // Dimensione font extra grande
 
-// Altri stili di tipografia
-$type-size-1: 2.441em !default;
-$type-size-2: 1.953em !default;
-$type-size-3: 1.563em !default;
-$type-size-4: 1.25em !default;
-$type-size-5: 1em !default;
-$type-size-6: 0.75em !default;
+// Tipografia
+$type-size-1: 2.441em !default; // Dimensione font 1 (grande)
+$type-size-2: 1.953em !default; // Dimensione font 2
+$type-size-3: 1.563em !default; // Dimensione font 3
+$type-size-4: 1.25em !default; // Dimensione font 4
+$type-size-5: 1em !default; // Dimensione font 5 (base)
+$type-size-6: 0.75em !default; // Dimensione font 6 (piccola)
+
+// Altri parametri di stile
+$line-height-base: 1.6 !default; // Altezza della linea base
+$line-height-headings: 1.25 !default; // Altezza della linea per gli heading
+$block-margin-bottom: 1.5em !default; // Margine inferiore per i blocchi di testo
+
+// Border e Spaziatura
+$border-radius: 4px !default; // Raggio dei bordi
+$border-width: 1px !default; // Larghezza dei bordi
+$spacing-unit: 1rem !default; // Unità di spaziatura (1rem)
+
+// Misc
+$max-width: 1200px !default; // Larghezza massima del contenuto
+$main-color: #f8f9fa !default; // Colore principale di sfondo
+
+// Variabili per il layout
+$container-width: 85% !default; // Larghezza del contenitore
+$grid-columns: 12 !default; // Numero di colonne nel layout a griglia
+$grid-gutter-width: 2rem !default; // Larghezza del gutter (spaziatura tra le colonne)
+
+// Variabili per il tema scuro (opzionale)
+$dark-background-color: #212121 !default; // Colore di sfondo scuro
+$dark-text-color: #fafafa !default; // Colore del testo nel tema scuro
+$dark-border-color: #424242 !default; // Colore del bordo nel tema scuro
+$dark-primary-color: #ff6347 !default; // Colore primario nel tema scuro
+
+// Variabili per il tema chiaro (opzionale)
+$light-background-color: #ffffff !default; // Colore di sfondo chiaro
+$light-text-color: #212121 !default; // Colore del testo nel tema chiaro
+$light-border-color: #e6e6e6 !default; // Colore del bordo nel tema chiaro
+$light-primary-color: #ff6347 !default; // Colore primario nel tema chiaro
